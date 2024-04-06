@@ -1,0 +1,197 @@
+html {
+    background-color: #0A1334;
+}
+h1 {
+    color: white;
+    margin-left: 3em;
+    
+}
+
+#menu{ 
+    box-sizing: border-box;
+    flex: 3;
+    margin-left: 20em;
+	list-style: none;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 10em;
+    color: white;
+} 
+nav{ 
+	width: 100%;
+    box-sizing: border-box;
+	display: flex; 
+    flex-direction: row;
+    justify-content:space-between;
+} 
+#head{
+    padding-right: 2.5em; 
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+}
+a.active1{
+    color: white;
+    font-size: 1.125em;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nonactive1{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+.image{
+    width: 100vw;
+    margin-left: none;
+}
+
+#hyrja {
+    color: white;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+}
+
+#about {
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+#produkte {
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+.gif {
+    width: 100vw;
+    margin-top: 7%;
+   
+}
+table {
+    background-color: beige;
+    width: 100vw;
+    margin-top: 5%;
+    border-radius: 20px;
+    border-spacing: 5em;
+    
+}
+tr td {
+    border-radius: 60px;
+    border-color: lightgray;
+    border-style: groove;
+    border-spacing: 2em;
+    
+}
+#phonelist {
+    list-style: none;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+}
+#iphone{
+    width: 50%;
+    text-align: center;
+    height: 230px;
+}
+#emri {
+    color: #0A1334;
+    font-size: 2em ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#cmimi {
+    color: darkslateblue;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+#buton {
+    text-align: center;
+    text-size-adjust: 1.5em;
+    border: #0A1334;
+    background-color: #0A1334;
+    color: white;
+    width: 12em;
+    height: 3em;
+    font-size: 1.2em;
+    font-style: bold;
+    cursor: pointer;
+}
+#sherbime {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+#form {
+    
+    padding-left: 35%;
+    line-height: 300%;
+    
+}
+#emri{
+    color: black;
+    font-size: 24px;
+
+}
+#input{
+    font: 1.5em sans-serif; 
+    border-color: black;
+    width: 13em ;
+   
+}
+#porosit{
+    text-align: center;
+    border: #0A1334;
+    background-color: rgb(184, 0, 0);
+    color: black;
+    width: 10em;
+    height: 1.5em;
+    font-size: 2em;
+    font-style: bold;
+    cursor: pointer;
+    margin-top: 6%;
+}
+#footer{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(150, 4, 4);
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    margin-top: 5%;
+    color: #0A1334;
+    
+}
+#ul2{ 
+    flex: 1;
+    box-sizing: border-box;
+	list-style: none;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    
+       
+}
+#emri1{
+    color: white;
+    font-size: 24px;
+}
+#img{
+	size: 1em
+	width: 200px;
+	height:200px;
+}
